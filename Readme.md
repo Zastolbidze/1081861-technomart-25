@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Левани Дзамукашвили](https://up.htmlacademy.ru/htmlcss/25/user/1081861).
-* Наставник: `Неизвестно`.
+* Наставник: [Янн Север](https://htmlacademy.ru/profile/10ktroubles).
 
 ---
 
