@@ -250,13 +250,29 @@
               </ul>
               <a class="button" href="about.html">Подробнее о компании</a>
         </section>
-        <section class="contacts">
+        <section class="modal modal-contacts">
           <h4>Контакты</h4>
           <p>Вы можете забрать товар сами,заехав в наш офис</p>
           <a class="map"  href="map.html">
               <img src="img/map.png" width="297" height="159" alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
           </a>
           <a class="button" href="contacts.html">Заблудились? Напишите нам!</a>
+          <form class="contact-form" action="https://echo.htmlacademy.ru" method="post">
+          <p>
+            <label class="visually-hidden" for="user-name">Ваше имя:</label>
+            <input class="user-name" id="user-name" type="text" name="name" placeholder="Имя Фамилия">
+          </p>
+          <p>
+              <label class="visually-hidden" for="user-email">Ваш e-mail:</label>
+              <input class="user-email" id="user-email" type="text" name="email" placeholder="email@example.com">
+          </p>
+          <p>
+              <label class="visually-hidden" for="user-message">Текст письма:</label>
+              <input class="user-message" id="user-message" type="text" name="message" placeholder="В свободной форме">
+          </p>
+          <button class="button" type="submit">Отправить</button>
+          </form>
+          <button class="modal-close" type="button">Закрыть</button>
           </section>
         <footer class="main-footer">
           <section class="main-footer">
