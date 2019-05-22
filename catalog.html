@@ -47,10 +47,60 @@
         </ul>
         <h1 class="page-title">Перфораторы</h1>
     <section class="filters">
-                    <h2 class="visually-hidden">Фильтр товаров</h2>
+                    <h2 class="filter-title">Фильтр:</h2>
                     <!-- Здесь будет форма -->
     </section>
-        <!-- Здесь будет форма сортировки -->
+    <section class="brand-filter">
+      <h2 class="visually-hidden">Фильтр производителей</h2>
+      <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+      <fieldset>
+        <legend>Производители:</legend>
+        <li class="filter-option">
+          <input class="visually-hidden filter-input filter-input-checkbox"
+          type="checkbox" name="bosch" id="filter-bosch" checked>
+          <label for="filter-bosch">BOSCH</label>
+        </li>
+        <li class="filter-option">
+            <input class="visually-hidden filter-input filter-input-checkbox"
+            type="checkbox" name="interskol" id="filter-interskol">
+            <label for="filter-interskol">Интерскол</label>
+        </li>
+        <li class="filter-option">
+            <input class="visually-hidden filter-input filter-input-checkbox"
+            type="checkbox" name="makita" id="filter-makita" checked>
+            <label for="filter-makita">MAKITA</label>
+        </li>
+        <li class="filter-option">
+            <input class="visually-hidden filter-input filter-input-checkbox"
+            type="checkbox" name="dewalt" id="filter-dewalt">
+            <label for="filter-dewalt">DEWALT</label>
+        </li>
+        <li class="filter-option">
+            <input class="visually-hidden filter-input filter-input-checkbox"
+            type="checkbox" name="hitachi" id="filter-hitachi">
+            <label for="filter-hitachi">HITACHI</label>
+        </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>Питание:</legend>
+        <ul>
+          <li class="filter-option">
+            <input class="visually-hidden filter-input filter-input-radio" 
+            type="radio" name="product-power" value="accumulator" id="filter-accumulator" 
+            checked>
+            <label for="filter-accumulator">Аккумуляторные</label>
+          </li>
+          <li class="filter-option">
+            <input class="visually-hidden filter-input filter-input-radio"
+            type="radio" name="product-power" value="network" id="filter-network">
+            <label for="filter-network">Сетевые</label>
+          </li>
+        </ul>
+      </fieldset>
+      <button type="submit" class="filter-button button">Показать</button>
+      </form>
+    </section>
     <section class="perforators">
                 <h2 class="visually-hidden">Список перфораторов</h2>
                 <ul class="catalog-list">
@@ -155,7 +205,10 @@
                                   <li><a href="contacts.html">Контакты</a></li>
                                 </ul>
                           </nav>
-                          <p class="contacts">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+                          <address class="footer-contacts">
+                              г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br>
+                              +7(812)555-05-55
+                          </address>
                           <nav class="footer-main-container-navigation">
                             <ul class="footer-main-container-navigation">
                                 <li><a href="materials.html">Материалы</a></li>
